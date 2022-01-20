@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Curierat și Transport</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style2.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <img src="imagini/camion2.jpg" class=" img-responsive ">
+
+        </div>
+    </header>
+
+    <h1>Transportă cu noi. Transporți rapid și sigur</h1>
+
+    <div class="formular">
+
+        <div>
+            <form name="myForm" action="https://formspree.io/f/mvolzbeg" onsubmit="return validateForm()" method="post">
+                <p>Informatii Expeditor<br></p>
+                <label for="name_exp"><br>Nume și prenume expeditor:<br></label>
+                <input type="text" id="name_exp" name="Numele si prenumele expeditorului" pattern="[a-zA-Z\s-]+" placeholder="Numele si prenumele expeditorului..." required>
+
+                <label for="email_exp"><br>E-mail:<br></label>
+                <input type="email" id="email_exp" name="Email expeditor" placeholder="Email expeditor..." required>
+                <br>
+                <label for="adresa_exp">Adresa expeditor:<br></label>
+                <input type="text" id="adresa_exp" name="Adresa expeditor" placeholder="Adresa expeditor..." required>
+
+                <p><br>Informatii Destinatar<br></p>
+                <label for="name_dest"><br>Nume și prenume destinatar:<br></label>
+                <input type="text" id="name_dest" name="Numele si prenumele destinatarului" pattern="[a-zA-Z\s-]+" placeholder="Numele si prenumele destinatarului..." required>
+
+                <label for="email_dest"><br>E-mail:<br></label>
+                <input type="email" id="email_dest" name="Email destinatar" placeholder="Email destinatar..." required>
+                <br>
+                <label for="adresa_dest">Adresa destinatar:<br></label>
+                <input type="text" id="adresa_dest" name="Adresa destinatar" placeholder="Adresa destinatar..." required>
+
+                <p><br>Informatii Colet<br></p>
+                <label for="colet"><br>Detalii despre colet( specificați perisabil sau neperisabil):<br></label>
+                <input type="text" id="colet" name="Detalii despre colet" placeholder="Detalii despre colet..." required>
+                <br><br>
+                <input type="submit" id="confirma" value="Confirmare comandă">
+
+            </form>
+            <button onclick="document.location='FastTransport.html'" id="back">FastTransport</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Telefon: 0770 125 410</p>
+        <p>Email: serban.vidican@gmail.com</p>
+        <p>Adresa: Str. Făcliei 48, Sîntandrei, Bihor</p>
+    </footer>
+    <script>
+        function validateForm() {
+            let x = document.forms["myForm"]["name_exp"].value;
+            if (x == "") {
+                alert("Vă rugăm completați nume și prenume expeditor");
+                return false;
+            }
+            let y = document.forms["myForm"]["email_exp"].value;
+            if (y == "") {
+                alert("Vă rugăm completați email expeditor");
+                return false;
+            }
+            let z = document.forms["myForm"]["adresa_exp"].value;
+            if (z == "") {
+                alert("Vă rugăm completați adresa expeditorului");
+                return false;
+            }
+            let a = document.forms["myForm"]["name_dest"].value;
+            if (a == "") {
+                alert("Vă rugăm completați nume și prenume destinatar");
+                return false;
+            }
+            let b = document.forms["myForm"]["email_dest"].value;
+            if (b == "") {
+                alert("Vă rugăm completați email destinatar");
+                return false;
+            }
+            let c = document.forms["myForm"]["adresa_dest"].value;
+            if (c == "") {
+                alert("Vă rugăm completați adresa destinatar");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>

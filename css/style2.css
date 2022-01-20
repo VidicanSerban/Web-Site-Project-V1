@@ -1,0 +1,401 @@
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    /*pentru meniu-burger*/
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    /*FastTransport.html*/
+    h1,
+    h2 {
+        margin-top: 10%;
+        font-size: 30px;
+        text-align: center;
+        padding: 1%;
+        color: #f33d00;
+    }
+    .chenar_start {
+        position: relative;
+        width: 80%;
+        left: 10%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        text-align: center;
+        font-size: 27px;
+    }
+    .reduceri_international {
+        width: 100%;
+        height: 70%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .reduceri_national {
+        margin-top: 10%;
+        width: 100%;
+        height: 70%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+        margin-bottom: 10%;
+    }
+    .dimensiuni {
+        margin-top: 2%;
+        width: 90%;
+        height: 50%;
+        border-radius: 10px;
+    }
+    .reduceri {
+        position: relative;
+        margin-right: 0;
+        width: 50%;
+        height: 35%;
+    }
+    .trans {
+        text-align: center;
+        font-size: 25px;
+        color: #f33d00;
+    }
+    /*firma.html*/
+    .chenar {
+        width: 98%;
+        left: 1%;
+        margin-top: 10%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .atentie {
+        text-align: center;
+        font-size: 35px;
+        color: #ff0000;
+    }
+    /*contact.html, tarife.html, flota.html*/
+    .flota,
+    .tarif,
+    .contact {
+        flex-direction: column;
+    }
+    .coloana1 {
+        width: 90%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .coloana2 {
+        margin-top: 5%;
+        width: 90%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .coloana3 {
+        margin-top: 5%;
+        width: 90%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .mancare {
+        margin-top: 4%;
+        left: 10%;
+        width: 80%;
+    }
+    .atego {
+        margin-top: 12.5%;
+        left: 10%;
+        width: 80%;
+    }
+    .ford {
+        margin-top: 12.5%;
+        left: 10%;
+        width: 80%;
+    }
+    /*transport.html*/
+    .oferta {
+        text-align: center;
+        font-size: 20px;
+        color: #f33d00;
+    }
+    .scamming {
+        font-size: 4px;
+    }
+    .acum {
+        cursor: pointer;
+        text-decoration: none;
+        width: 200px;
+        padding: 20px;
+        background-color: #136f6e;
+        color: azure;
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 0;
+    }
+    /*confirma.html*/
+    .formular {
+        width: 90%;
+        margin-left: 5%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+        border-radius: 10px;
+        padding: 2% 0;
+    }
+    #name_exp,
+    #email_exp,
+    #adresa_exp,
+    #name_dest,
+    #email_dest,
+    #adresa_dest,
+    #colet {
+        width: 90%;
+        font-size: 30px;
+        height: 40px;
+        text-align: center;
+    }
+    #confirma {
+        cursor: pointer;
+        text-decoration: none;
+        width: 200px;
+        padding: 10px;
+        background-color: #f33d00;
+        font-size: 19px;
+        border-radius: 10px;
+        margin: 0;
+        box-shadow: 0 5px #999;
+        margin-bottom: 5%;
+    }
+    #back {
+        cursor: pointer;
+        text-decoration: none;
+        width: 200px;
+        padding: 10px;
+        background-color: #136f6e;
+        font-size: 19px;
+        border-radius: 10px;
+        margin: 0;
+        box-shadow: 0 5px #999;
+        margin-bottom: 5%;
+    }
+    /*footer*/
+    footer {
+        margin-top: 50px;
+        background-color: #aadaea;
+        text-align: center;
+        font-size: 20px;
+        padding: 14px 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    /*FastTransport.html*/
+    h1,
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        padding: 1%;
+        color: #f33d00;
+    }
+    .chenar_start {
+        position: relative;
+        width: 70%;
+        left: 15%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        text-align: center;
+        font-size: 27px;
+    }
+    .reduceri_international {
+        width: 100%;
+        height: 70%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .reduceri_national {
+        margin-top: 10%;
+        width: 100%;
+        height: 70%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+        margin-bottom: 10%;
+    }
+    .dimensiuni {
+        margin-top: 2%;
+        width: 90%;
+        height: 30%;
+        border-radius: 10px;
+    }
+    .reduceri {
+        position: relative;
+        margin-right: 0;
+        width: 50%;
+        height: 35%;
+    }
+    .trans {
+        text-align: center;
+        font-size: 25px;
+        color: #f33d00;
+    }
+    /*firma.html*/
+    .chenar {
+        width: 90%;
+        left: 5%;
+        margin-top: 5%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .atentie {
+        text-align: center;
+        font-size: 35px;
+        color: #ff0000;
+    }
+    /*contact.html, tarife.html, flota.html*/
+    .flota,
+    .tarif,
+    .contact {
+        flex-direction: column;
+    }
+    .coloana1 {
+        width: 90%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .coloana2 {
+        margin-top: 5%;
+        width: 90%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .coloana3 {
+        margin-top: 5%;
+        width: 90%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+    }
+    .mancare {
+        margin-top: 4%;
+        left: 10%;
+        width: 80%;
+    }
+    .atego {
+        margin-top: 12.5%;
+        left: 10%;
+        width: 80%;
+    }
+    .ford {
+        margin-top: 12.5%;
+        left: 10%;
+        width: 80%;
+    }
+    .subsol {
+        margin-top: 10%;
+        margin-bottom: 22%;
+    }
+    /*transport.html*/
+    .oferta {
+        text-align: center;
+        font-size: 20px;
+        color: #f33d00;
+    }
+    .scamming {
+        font-size: 4px;
+    }
+    .acum {
+        cursor: pointer;
+        text-decoration: none;
+        width: 200px;
+        padding: 20px;
+        background-color: #136f6e;
+        color: azure;
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 0;
+    }
+    /*confirma.html*/
+    .formular {
+        width: 70%;
+        margin-left: 15%;
+        background: rgba(133, 187, 192, 0.7);
+        text-align: center;
+        font-size: 27px;
+        border-radius: 10px;
+        padding: 2% 0;
+    }
+    #name_exp,
+    #email_exp,
+    #adresa_exp,
+    #name_dest,
+    #email_dest,
+    #adresa_dest,
+    #colet {
+        width: 90%;
+        font-size: 30px;
+        height: 40px;
+        text-align: center;
+    }
+    #confirma {
+        cursor: pointer;
+        text-decoration: none;
+        width: 200px;
+        padding: 10px;
+        font-size: 19px;
+        border-radius: 10px;
+        margin: 0;
+        background-color: #f33d00;
+        box-shadow: 0 7px #999;
+        margin-bottom: 5%;
+    }
+    #back {
+        cursor: pointer;
+        text-decoration: none;
+        width: 200px;
+        padding: 10px;
+        font-size: 19px;
+        border-radius: 10px;
+        margin: 0;
+        background-color: #136f6e;
+        box-shadow: 0 7px #999;
+        margin-bottom: 5%;
+    }
+    /*footer*/
+    footer {
+        margin-bottom: 0;
+        background-color: #aadaea;
+        text-align: center;
+        font-size: 20px;
+        padding: 14px 15px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width: 1300px) {
+    .dimensiuni {
+        margin-top: 2%;
+        width: 90%;
+        height: 30%;
+    }
+}
